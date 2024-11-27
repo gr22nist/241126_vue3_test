@@ -2,6 +2,7 @@
   <div>
     <MainHeroSlider />
     <MainCardGrid />
+    <MainCardProjects />
   </div>
 </template>
 

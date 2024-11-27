@@ -31,8 +31,7 @@ module.exports = {
     screens: {
       'sm': '375px',
       'md': '810px',
-      'lg': '1080px',
-      'xl': '1440px',
+      'lg': '1440px',
     },
     container: {
       center: true,
@@ -41,13 +40,11 @@ module.exports = {
         sm: '2rem',     
         md: '2rem',     
         lg: '2rem',     
-        xl: '2rem',
       },
       screens: {
         sm: '375px',
         md: '810px',
         lg: '1080px',
-        xl: '1440px',
       },
     },
   },

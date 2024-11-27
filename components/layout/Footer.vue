@@ -28,11 +28,16 @@ const prevSlide = () => {
 </script>
 
 <template>
-  <footer class="bg-[#1D1D1D] h-[350px] flex items-center text-white">
+  <footer class="bg-[#1D1D1D] h-[250px] sm:h-[300px] md:h-[350px] flex items-center text-white">
     <div class="container mx-auto px-4 py-6">
       <div class="flex flex-col gap-8">
-        <Logo class="text-white" accentColor="fill-white" width="252" height="68" />
-        <div>
+        <Logo 
+          class="text-white scale-[0.7] sm:scale-[0.8] md:scale-100 origin-left" 
+          accentColor="fill-white" 
+          width="252" 
+          height="68"
+        />
+        <div class="text-xs sm:text-sm">
           Copyrights 2024. <span class="font-bold">테스트</span> All rights Reserved.
         </div>
       </div>
